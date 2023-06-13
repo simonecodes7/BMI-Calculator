@@ -1,0 +1,13 @@
+#take input from used:
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+#set bmi variable
+bmi = int(weight) / float(height) **2
+
+#convert float value to an integer
+bmi_as_int = int(bmi)
+
+
+#print integer result
+print(bmi_as_int)
